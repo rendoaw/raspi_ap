@@ -25,6 +25,15 @@
 * NAT will be enabled by default on 192.168.220.0/24 subnet
 
 
+## Run
+
+```
+sudo apt-get -y install hostapd dnsmasq
+git clone https://github.com/rendoaw/raspi_ap.git
+cd raspi_ap
+./setup.sh
+```
+
 ## To Do
 
 * use GPIO pin to "select operation mode" based on jumper connected to it:
